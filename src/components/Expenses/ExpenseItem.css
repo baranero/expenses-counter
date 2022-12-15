@@ -34,6 +34,23 @@
   padding: 0.5rem;
   border-radius: 12px;
 }
+button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+button:hover,
+button:active {
+  background-color: #510674;
+  border-color: #510674;
+}
 
 @media (min-width: 580px) {
   .expense-item__description {

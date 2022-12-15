@@ -6,7 +6,6 @@ const ExpensesFilter = (props) => {
 
   const handleYear = (event) => {
     props.onPickedYear(event.target.value)
-    console.log(event.target.value);
   }
 
   return (
